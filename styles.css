@@ -6,53 +6,59 @@ A few elements styled using a class
 A different color for visited links
 An element styled with an ID*/
 
-body {
-	margin: 0 auto;
-	max-width: 900px;
-}
+/* Top page of website */
 
-#nav_bar {
-	text-align: center;
-	padding: 5px;
-	font-size: 25px;
-	font-family: 'Raleway', sans-serif;
-}
-
-#main_photo {
-	width: 100%;
-	padding: 10px 0px 0px 0px;
-	border-radius: 50px 50px;
-}
-
-#header a {
-	display: inline-block;
-	padding: 10px;
-}
-
-#header p {
-	display: inline-block;
-	float: left;
-}
-
-#header #map_photo {
-	display: inline-block;
-	float: right;
-}
-
-h1{
-	font-size: 100px;
-	text-align: center;
-	padding: 10px 10px 10px 0px;
-	font-family: 'Abril Fatface', cursive;
-}
-
-/*h1 #header_beginning {
+#header #header_beginning {
 	color: #808000;
 }
 
-h1 #header_end {
-	color: #CD5C5C;
-}*/
+#header #header_end {
+	color: #8B0000;
+	padding-bottom: 40px;
+}
+
+h1 {
+	padding: 0;
+	margin: auto;
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#header #nav_bar {
+	padding: 20px;
+	margin: auto;
+	width: 80%;
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+
+#header a {
+	padding-left: 30px;
+}
+
+#header #intro {
+	display: block;
+	float: left;
+	width: 40%;
+	padding: 30px 0px 30px 50px;
+}
+
+#header #map_photo {
+	display: block;
+	float: right;
+	width: 50%;
+	padding: 30px 0px 30px 50px;
+}
+
+/* Meat of website */
+
+body {
+	margin: auto;
+	max-width: 75%;
+}
 
 h2, h3 {
 	background-color: #6B8E23;
@@ -103,17 +109,15 @@ table {
 }
 
 th {
-	background: #DB7093;
+	background: #F5F5F5;
 	border: 1px solid black;
-	color: #FFE4E1;
+	color: ##778899;
 	padding: 10px;
 }
 
 td {
-padding: 5px;
-
+	padding: 5px;
 }
-
 
 #unordered_list {
 	font-family: 'Raleway', sans-serif;
@@ -134,8 +138,6 @@ padding: 5px;
 
 
 /*
-different color for header
-intro map and text float
 things follows by float, do not have the 150px padding
 */
 
