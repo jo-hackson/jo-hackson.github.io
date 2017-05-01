@@ -1,3 +1,142 @@
+/*Padding and border added to at least one element
+Margin added to at least one element
+At least one centered element (a footer message can be nice for this)
+A background image on at least one element
+A few elements styled using a class
+A different color for visited links
+An element styled with an ID*/
+
 body {
-	background:blue
+	margin: 0 auto;
+	max-width: 900px;
 }
+
+#nav_bar {
+	text-align: center;
+	padding: 5px;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#main_photo {
+	width: 100%;
+	padding: 10px 0px 0px 0px;
+	border-radius: 50px 50px;
+}
+
+#header a {
+	display: inline-block;
+	padding: 10px;
+}
+
+#header p {
+	display: inline-block;
+	float: left;
+}
+
+#header #map_photo {
+	display: inline-block;
+	float: right;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	padding: 10px 10px 10px 0px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+/*h1 #header_beginning {
+	color: #808000;
+}
+
+h1 #header_end {
+	color: #CD5C5C;
+}*/
+
+h2, h3 {
+	background-color: #6B8E23;
+	font-size: 60px;
+	color: #8B0000;
+	clear: both;
+	font-family: 'Raleway', sans-serif;
+	padding: 20px;
+	text-indent: 20px;
+	margin-top: 150px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+body {
+	width: 100%;
+}
+
+#touristic #mosteiro {
+	width: 50%;
+	float: left;
+}
+
+#touristic #carmo {
+	width: 50%;
+	float: right;
+}
+
+#touristic #image {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+}
+
+#touristic #mosteiro p,
+#touristic #carmo p {
+	font-size: 15px;
+	padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+th {
+	background: #DB7093;
+	border: 1px solid black;
+	color: #FFE4E1;
+	padding: 10px;
+}
+
+td {
+padding: 5px;
+
+}
+
+
+#unordered_list {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	width: 60%;
+	display: inline-block;
+	float: left;
+}
+
+#ordered_list {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	width: 30%;
+	display: inline-block;
+	float: right;
+}
+
+
+
+/*
+different color for header
+intro map and text float
+things follows by float, do not have the 150px padding
+*/
+
+
