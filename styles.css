@@ -6,13 +6,19 @@ A few elements styled using a class
 A different color for visited links
 An element styled with an ID*/
 
+
 /* Top page of website */
 
-#header #header_beginning {
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header_beginning {
 	color: #808000;
 }
 
-#header #header_end {
+#header_end {
 	color: #8B0000;
 	padding-bottom: 40px;
 }
@@ -25,7 +31,7 @@ h1 {
 	font-family: 'Abril Fatface', cursive;
 }
 
-#header #nav_bar {
+#nav_bar {
 	padding: 20px;
 	margin: auto;
 	width: 80%;
@@ -39,18 +45,21 @@ h1 {
 	padding-left: 30px;
 }
 
-#header #intro {
+#intro_p {
 	display: block;
 	float: left;
 	width: 40%;
 	padding: 30px 0px 30px 50px;
+	background: pink;
 }
 
-#header #map_photo {
+#intro_photo {
 	display: block;
 	float: right;
 	width: 50%;
 	padding: 30px 0px 30px 50px;
+	background: royalblue;
+	vertical-align: middle;
 }
 
 /* Meat of website */
@@ -60,46 +69,67 @@ body {
 	max-width: 75%;
 }
 
-h2, h3 {
+
+/*h2::before,
+h3::before {
+	content: "";
+	clear:both;
+	padding: 100px 0px;
+}*/
+
+/* General */
+
+h3 {
 	background-color: #6B8E23;
 	font-size: 60px;
 	color: #8B0000;
 	clear: both;
 	font-family: 'Raleway', sans-serif;
 	padding: 20px;
+	margin: 50px 0px;
 	text-indent: 20px;
-	margin-top: 150px;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
+	padding: 15px;
 }
+
+p #bacon {
+	font-size: 14px;
+	background: black;
+}
+
 
 body {
 	width: 100%;
 }
 
-#touristic #mosteiro {
+/* Sights */
+
+#mosteiro {
 	width: 50%;
 	float: left;
 }
 
-#touristic #carmo {
+#carmo {
 	width: 50%;
 	float: right;
 }
 
-#touristic #image {
+#image {
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 }
 
-#touristic #mosteiro p,
-#touristic #carmo p {
+#mosteiro p,
+#carmo p {
 	font-size: 15px;
 	padding: 10px;
 }
+
+/* Food & Drink */
 
 table {
     border-collapse: collapse;
@@ -119,6 +149,8 @@ td {
 	padding: 5px;
 }
 
+/* Useful Phrases */
+
 #unordered_list {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
@@ -135,10 +167,15 @@ td {
 	float: right;
 }
 
+/* Photo Cred */
 
+#photo_cred p {
+	font-size: 14px;
+}
 
 /*
 things follows by float, do not have the 150px padding
+unable to center intro_photo
 */
 
 
