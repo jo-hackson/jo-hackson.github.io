@@ -1,11 +1,4 @@
-/*Padding and border added to at least one element
-Margin added to at least one element
-At least one centered element (a footer message can be nice for this)
-A background image on at least one element
-A few elements styled using a class
-A different color for visited links
-An element styled with an ID*/
-
+/*A background image on at least one element*/
 
 /* Top page of website */
 
@@ -14,38 +7,47 @@ An element styled with an ID*/
 	padding: 0;
 }
 
-#header_beginning {
+.header_beginning {
 	color: #808000;
+/*	position: static;
+	display: block;*/
 }
 
-#header_end {
+.header_end {
 	color: #8B0000;
 	padding-bottom: 40px;
+/*	position: static;
+	display: block;*/
 }
 
 h1 {
 	padding: 0;
 	margin: auto;
-	font-size: 100px;
-	text-align: center;
+	font-size: 2em;
+	text-align: left;
 	font-family: 'Abril Fatface', cursive;
+	background: pink;
+/*	display: block;
+	float: left;*/
 }
 
-#nav_bar {
+.nav_bar {
 	padding: 20px;
 	margin: auto;
-	width: 80%;
+	width: 90%;
 	font-size: 22px;
 	font-family: 'Raleway', sans-serif;
 	border-bottom: 2px solid black;
 	border-top: 2px solid black;
+/*	display: inline-block;
+	float: right;*/
 }
 
-#header a {
+.header a {
 	padding-left: 30px;
 }
 
-#intro_p {
+.intro_p {
 	display: block;
 	float: left;
 	width: 40%;
@@ -53,7 +55,7 @@ h1 {
 	background: pink;
 }
 
-#intro_photo {
+.intro_photo {
 	display: inline-block;
 	float: right;
 	width: 50%;
@@ -66,7 +68,7 @@ h1 {
 
 body {
 	margin: auto;
-	max-width: 75%;
+	max-width: 90%;
 }
 
 
@@ -102,23 +104,23 @@ body {
 
 /* Sights */
 
-#mosteiro {
+.mosteiro {
 	width: 50%;
 	float: left;
 }
 
-#carmo {
+.carmo {
 	width: 50%;
 	float: right;
 }
 
-#image {
+.image {
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 }
 
-#mosteiro p,
-#carmo p {
+.mosteiro p,
+.carmo p {
 	font-size: 15px;
 	padding: 10px;
 }
@@ -127,9 +129,22 @@ body {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    vertical-align: center
+}
+
+tr td {
+	padding: 13px;
+}
+
+.third_row{
+	text-align: left;
+}
+
+.sights_img{
+	width: 80%;
 }
 
 th {
@@ -145,7 +160,7 @@ td {
 
 /* Useful Phrases */
 
-#unordered_list {
+.unordered_list {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	width: 60%;
@@ -153,7 +168,7 @@ td {
 	float: left;
 }
 
-#ordered_list {
+.ordered_list {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	width: 30%;
@@ -163,8 +178,19 @@ td {
 
 /* Photo Cred */
 
-#photo_cred p {
+.photo_cred p {
 	font-size: 14px;
+}
+
+section footer {
+	text-align: center;
+}
+
+a:link {
+	color: #808000;
+}
+a:visited {
+	color: #8B0000;
 }
 
 /*
