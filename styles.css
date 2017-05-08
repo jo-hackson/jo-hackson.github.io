@@ -130,6 +130,18 @@ td {
 	margin: auto;
 }
 
+#beaches #towel {
+	background: url(images/beaches.jpg);
+	font-size: 6em;
+	text-align: center;
+	padding: 200px;
+	width: 50%;
+	margin: auto;
+	font-family: 'Sniglet', cursive;
+	color: #FFA500;
+	text-shadow: 6px 6px 6px #000000;
+}
+
 /* Useful Phrases */
 
 .unordered_list {
